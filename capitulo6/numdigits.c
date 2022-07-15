@@ -14,5 +14,7 @@ int main (void)
     } while (n > 0 );
 
     printf("The number has %d digit(s).\n" , digits);
+
+    
     return 0;
 }
