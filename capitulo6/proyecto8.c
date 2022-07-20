@@ -41,7 +41,6 @@ int main(void)
 
     for(int i = 1; i <= numberDaysMonth; i++)
     {
-
         if (i == lastDayWeek || i == lastDayWeek + 7 || i == lastDayWeek + 14 || i == lastDayWeek + 21)
         {
             printf("%3d\n", i);
@@ -50,7 +49,6 @@ int main(void)
         {
             printf("%3d", i);
         }
-        
     }
     return 0;
 }
