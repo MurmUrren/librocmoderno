@@ -6,15 +6,17 @@ typedef char Int8;
 typedef short Int16;
 typedef int Int32;
 
-#define INT32 int
-
 #include <stdio.h>
 
 int main(void)
 {
-    INT32 a = 20;
+    Int8 a = 20;
+    Int16 b = 14;
+    Int32 c = 3215156;
 
-    printf("%d", a);
+    printf("\n%d", a);
+    printf("\n%d", b);
+    printf("\n%d", c);
 
-
+    return 0;
 }
